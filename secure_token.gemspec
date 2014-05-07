@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ivan Kasatenko"]
   spec.email         = ["sky.31338@gmail.com"]
   spec.summary       = %q{JWT-like solution, that enables you to store encrypted and signed Hash'es on the client side, decrypt and verify them upon retreival}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/SkyWriter/secure_token"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'activesupport'
+  spec.add_runtime_dependency 'activesupport'
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
 end
