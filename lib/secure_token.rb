@@ -1,4 +1,3 @@
-require 'pry'
 require 'base64'
 require 'openssl'
 require 'json'
